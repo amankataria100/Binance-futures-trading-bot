@@ -1,0 +1,15 @@
+2026-02-19 18:40:06,260 | INFO | bot.client | Initialized Binance Futures Testnet client
+2026-02-19 18:40:06,260 | INFO | bot.client | Order request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-02-19 18:40:06,886 | ERROR | bot.client | APIError(code=-4164): Order's notional must be no smaller than 100 (unless you choose reduce only).
+2026-02-19 18:40:06,886 | ERROR | CLI | APIError(code=-4164): Order's notional must be no smaller than 100 (unless you choose reduce only).
+2026-02-19 19:12:46,450 | INFO | bot.client | Initialized Binance Futures Testnet client
+2026-02-19 19:12:46,452 | INFO | bot.client | Order request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-02-19 19:12:47,035 | INFO | bot.client | Order response: {'orderId': 12391928094, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'r15YvHsveSm7zyIgpLE3MK', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.010', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1771508566927}
+2026-02-19 19:19:20,533 | ERROR | CLI | Price must be provided for LIMIT orders.
+2026-02-19 19:21:36,071 | INFO | bot.client | Initialized Binance Futures Testnet client
+2026-02-19 19:21:36,072 | INFO | bot.client | Order request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 60000.0, 'timeInForce': 'GTC'}
+2026-02-19 19:21:36,599 | ERROR | bot.client | APIError(code=-4024): Limit price can't be lower than 62525.16.
+2026-02-19 19:21:36,599 | ERROR | CLI | APIError(code=-4024): Limit price can't be lower than 62525.16.
+2026-02-19 19:21:55,351 | INFO | bot.client | Initialized Binance Futures Testnet client
+2026-02-19 19:21:55,351 | INFO | bot.client | Order request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 65000.0, 'timeInForce': 'GTC'}
+2026-02-19 19:21:55,954 | INFO | bot.client | Order response: {'orderId': 12392112774, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': '7K6eV2f7FU82SvFAFRPPT8', 'price': '65000.00', 'avgPrice': '0.00', 'origQty': '0.010', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1771509115805}
